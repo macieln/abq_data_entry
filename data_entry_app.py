@@ -1,6 +1,5 @@
 import tkinter as tk
 from tkinter import ttk
-
 from datetime import datetime
 import os
 import csv
@@ -15,7 +14,7 @@ class Application(tk.Tk):
 
         data = self.recordform.get()
         with open(filename, 'a') as fh:
-            csvwriter = csv.DictWriter(fh, file=data.keys())
+            csvwriter = csv.DictWriter(fh, fieldnames=data.keys())
             if newfile:
                 csvwriter.writeheader()
                 csvwriter.writerow(data)

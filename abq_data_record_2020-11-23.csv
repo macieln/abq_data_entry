@@ -1,0 +1,3 @@
+Date,Time,Technician,Lab,Plot,Seed Sample,Humidity,Light,Temperature,Equipment Fault,Plants,Blossoms,Fruit,Min Height,Max Height,Median Height,Notes
+,8:00,Nahum Maciel,A,4,ABC123,1.01,5.0,14.0,False,5,2,0,13.0,24.0,18.0,"Weather turned cold yesterday night.
+"
